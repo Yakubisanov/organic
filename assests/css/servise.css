@@ -1,0 +1,362 @@
+/* *** */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container start */
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.first_container {
+    max-width: 1595px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header start */
+
+.header_left_title {
+    color: rgb(39, 76, 91);
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.header_display {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+}
+
+.blo:hover .header_display {
+    display: flex;
+}
+
+.blo {
+    width: 10px;
+    height: 100%;
+}
+
+.header_icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.header_left_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header_left_ul li {
+    color: rgb(39, 76, 91);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    list-style: none;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.page:hover .divno {
+    display: flex;
+}
+
+
+
+.divno {
+    width: 100px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    top: 25px;
+    display: none;
+}
+
+
+.shopa {
+    text-decoration: none;
+}
+
+.homea {
+    text-decoration: none;
+}
+
+.header_inp {
+    width: 335px;
+    height: 66px;
+    border-radius: 36px;
+    background: rgb(250, 250, 250);
+    border: none;
+    padding-left: 18px;
+    outline: none;
+    font-size: 20px;
+}
+
+.search_bg {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: rgb(126, 182, 147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -64px;
+}
+
+.header_right_icon {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_right_bg {
+    width: 159px;
+    height: 66px;
+    box-sizing: border-box;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.cart_bg {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: rgb(39, 76, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.header_right_title {
+    color: rgb(39, 76, 91);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.header_icon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.header_real_bg {
+    width: 100%;
+    height: 204px;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big_ul {
+    list-style: none;
+}
+
+.big_ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.big_ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: rgb(39, 76, 91);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.big_ul li ul.dropdown li {
+    display: block;
+}
+
+.big_ul li ul.dropdown {
+    width: 100%;
+    background: white;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.big_ul li a:hover {
+    background: gold;
+}
+
+.big_ul li:hover ul.dropdown {
+    display: block;
+}
+
+/* Header end */
+
+/* What they do start */
+
+.page2 {
+    padding-top: 120px;
+}
+
+.page2_title1 {
+    text-align: center;
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.page2_title2 {
+    margin: 0 auto;
+    width: 482px;
+    color: #274C5B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.page2_items {
+    display: flex;
+    justify-content: center;
+}
+
+.page2_right {
+    padding-top: 140px;
+}
+
+.page2_right_icon {
+    display: flex;
+    width: 396px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.page2_right_icon1 {
+    padding-top: 45px;
+}
+
+.page2_right_icon2 {
+    text-align: right;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.page2_right_icon3 {
+    color: #525C60;
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%;
+    width: 396px;
+    padding-top: 9px;
+}
+
+.page2_left {
+    padding-top: 140px;
+}
+
+.page2_left_icon1 {
+    padding-top: 35px;
+}
+
+.page2_left_icon2 {
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.page2_left_icon3 {
+    padding-top: 9px;
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.4%;
+    width: 396px;
+}
+
+.page2_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2_btn button {
+    padding: 28px 36px 29px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 2px solid #335B6B;
+    background: #F9F8F8;
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.page2_btn img {
+    position: relative;
+    top: 3px;
+}
+
+/* What they do end */
